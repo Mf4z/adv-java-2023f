@@ -1,0 +1,7 @@
+
+Œ
+java:S2095$"DUse try-with-resources or close this "Stream" in a "finally" clause.(£…ßÍÿÿÿÿÿ8œéÅè‡2J$3ebde796-f350-4c2c-bf8e-e43f52c408a9
+‚
+java:S1117":Rename "mapper" which hides the field declared at line 18.(ĞÏáúÿÿÿÿ8›ôŠè‡2J$1c8b48d9-27b7-4d5c-9c0f-12a5ddc573a5
+½
+java:S6204'"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(ª™¨¹8ÇéÅè‡2J$e1e88fdc-2ca8-4f1b-904f-8abe8a830d65

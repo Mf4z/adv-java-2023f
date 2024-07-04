@@ -19,3 +19,5 @@ W
 'core-module/src/test/java/TestMVD3.java,a/0/a0ddffb5dd352d77764cf01ee17ce7f4917b50ac
 W
 'core-module/src/test/java/TestJUN1.java,5/b/5b349d004eba42168ced8b7d6bdcf758dc4ff582
+W
+'core-module/src/test/java/TestJUN2.java,f/6/f6f941cca6a29ebd1904397cea2a4027d377e2f5
