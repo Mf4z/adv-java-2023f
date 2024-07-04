@@ -33,3 +33,7 @@ W
 'core-module/src/test/java/TestSPR2.java,b/7/b706c42dc129bd384d320c0ad1c1003f89a2d412
 x
 Hcore-module/src/main/java/fr/epita/exams/config/DatabaseInitializer.java,a/2/a25e6b017d7aafd2b02ec6aa414c88117124e3a5
+n
+>core-module/src/main/java/fr/epita/exams/config/JpaConfig.java,2/3/23361b1dc9f8118dfa8cec9b6177548c8782dad3
+W
+'core-module/src/test/java/TestJPA1.java,e/c/ec8bd95c2b1764671bbae09287081891d01a62c8

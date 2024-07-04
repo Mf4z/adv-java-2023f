@@ -4,25 +4,50 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
+import javax.persistence.*;
 import java.util.Date;
 import java.util.List;
 
+@Entity
+@Table(name = "competitors")
 public class Competitor {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name = "family_name")
     @JsonProperty("family_name")
     private String familyName;
+
+    @Column(name = "given_name")
     @JsonProperty("given_name")
     private String givenName;
 
+    @Transient // This indicates that the field should not be stored in the database.
     @JsonIgnore
-    private String middleName; // Add this if you need to document it exists but do not use it.
+    private String middleName;
+
+    @Column(name = "gender")
     private String gender;
+
+    @Column(name = "country")
     private String country;
 
+    @Temporal(TemporalType.DATE)
+    @Column(name = "birth_date")
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     private Date birthDate;
+
+    @Column(name = "height")
     private int height;
+
+    @Column(name = "belt")
     private String belt;
-    private List<String> categories;
+
+    // Assume Categories are a set of category names, stored as a comma-separated string in the database
+    @Column(name = "categories")
+    private String categories;
 
     @JsonCreator
     public Competitor(
@@ -41,7 +66,28 @@ public class Competitor {
         this.birthDate = birthDate;
         this.height = height;
         this.belt = belt;
-        this.categories = categories;
+        this.setCategories(categories); // Use setter to handle list to string conversion if necessary
+    }
+
+    // Default constructor for JPA
+    public Competitor() {}
+
+
+
+    public void setCategories(List<String> categories) {
+        this.categories = String.join(",", categories); // Convert List to comma-separated String for storage
+    }
+
+    public List<String> getCategories() {
+        return List.of(categories.split(",")); // Convert back from String to List
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getFamilyName() {
@@ -58,6 +104,14 @@ public class Competitor {
 
     public void setGivenName(String givenName) {
         this.givenName = givenName;
+    }
+
+    public String getMiddleName() {
+        return middleName;
+    }
+
+    public void setMiddleName(String middleName) {
+        this.middleName = middleName;
     }
 
     public String getGender() {
@@ -100,25 +154,19 @@ public class Competitor {
         this.belt = belt;
     }
 
-    public List<String> getCategories() {
-        return categories;
-    }
-
-    public void setCategories(List<String> categories) {
-        this.categories = categories;
-    }
-
     @Override
     public String toString() {
         return "Competitor{" +
-                "familyName='" + familyName + '\'' +
+                "id=" + id +
+                ", familyName='" + familyName + '\'' +
                 ", givenName='" + givenName + '\'' +
+                ", middleName='" + middleName + '\'' +
                 ", gender='" + gender + '\'' +
                 ", country='" + country + '\'' +
                 ", birthDate=" + birthDate +
                 ", height=" + height +
                 ", belt='" + belt + '\'' +
-                ", categories=" + categories +
+                ", categories='" + categories + '\'' +
                 '}';
     }
 }
