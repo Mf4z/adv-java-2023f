@@ -37,3 +37,9 @@ n
 >core-module/src/main/java/fr/epita/exams/config/JpaConfig.java,2/3/23361b1dc9f8118dfa8cec9b6177548c8782dad3
 W
 'core-module/src/test/java/TestJPA1.java,e/c/ec8bd95c2b1764671bbae09287081891d01a62c8
+}
+Mcore-module/src/main/java/fr/epita/exams/repository/CompetitorRepository.java,0/e/0e6bb0709ae18295eac46c9a24e1eabe26c0e058
+Å
+Qcore-module/src/main/java/fr/epita/exams/repository/CompetitorRepositoryImpl.java,1/3/131c68b09e6e0a1459c0d8d205eb3e89cc611fd8
+W
+'core-module/src/test/java/TestJPA2.java,3/e/3e1ddbe7faf34e4b2979793a40114dc23f626286

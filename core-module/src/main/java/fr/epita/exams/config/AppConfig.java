@@ -3,6 +3,7 @@ package fr.epita.exams.config;
 import fr.epita.exams.dao.CompetitorDAO;
 import org.h2.jdbcx.JdbcDataSource;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.jpa.JpaTransactionManager;
@@ -14,6 +15,7 @@ import javax.sql.DataSource;
 import java.util.Properties;
 
 @Configuration
+//@ComponentScan(basePackages = "fr.epita.exams.config")
 public class AppConfig {
 
     @Bean

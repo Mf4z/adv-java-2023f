@@ -9,6 +9,7 @@ import java.sql.Connection;
 import java.sql.Statement;
 
 @Component
+//@ComponentScan(basePackages = "fr.epita.exams.config")
 public class DatabaseInitializer implements CommandLineRunner {
 
     @Autowired
