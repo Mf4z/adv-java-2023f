@@ -1,9 +1,9 @@
 import fr.epita.exams.datamodel.Competitor;
 import fr.epita.exams.services.JsonService;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class TestMVD3 {
 

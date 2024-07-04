@@ -2,6 +2,7 @@ package fr.epita.exams.datamodel;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.Date;
 import java.util.List;
@@ -11,6 +12,9 @@ public class Competitor {
     private String familyName;
     @JsonProperty("given_name")
     private String givenName;
+
+    @JsonIgnore
+    private String middleName; // Add this if you need to document it exists but do not use it.
     private String gender;
     private String country;
 
