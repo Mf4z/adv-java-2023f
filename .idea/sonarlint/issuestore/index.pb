@@ -27,3 +27,9 @@ n
 >core-module/src/main/java/fr/epita/exams/config/AppConfig.java,4/6/46ee4e0cd83cbba037d37388b841269d68aa5cf5
 W
 'core-module/src/test/java/TestSPR1.java,9/f/9fab98b0d2ff9237fb64d2f4b4de88807b8804c5
+o
+?core-module/src/main/java/fr/epita/exams/dao/CompetitorDAO.java,f/0/f04079efc1859f8a0b0659fba49905ff51517e1c
+W
+'core-module/src/test/java/TestSPR2.java,b/7/b706c42dc129bd384d320c0ad1c1003f89a2d412
+x
+Hcore-module/src/main/java/fr/epita/exams/config/DatabaseInitializer.java,a/2/a25e6b017d7aafd2b02ec6aa414c88117124e3a5
