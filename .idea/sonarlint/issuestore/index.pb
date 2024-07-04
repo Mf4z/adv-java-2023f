@@ -21,3 +21,9 @@ W
 'core-module/src/test/java/TestJUN1.java,5/b/5b349d004eba42168ced8b7d6bdcf758dc4ff582
 W
 'core-module/src/test/java/TestJUN2.java,f/6/f6f941cca6a29ebd1904397cea2a4027d377e2f5
+}
+Mcore-module/src/main/java/fr/epita/exams/fr/epita/exams/config/AppConfig.java,9/2/922fe1c68c52cbf9c890e30807c07d55309dfed7
+n
+>core-module/src/main/java/fr/epita/exams/config/AppConfig.java,4/6/46ee4e0cd83cbba037d37388b841269d68aa5cf5
+W
+'core-module/src/test/java/TestSPR1.java,9/f/9fab98b0d2ff9237fb64d2f4b4de88807b8804c5
