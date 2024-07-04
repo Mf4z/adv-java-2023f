@@ -15,7 +15,7 @@ import javax.sql.DataSource;
 import java.util.Properties;
 
 @Configuration
-//@ComponentScan(basePackages = "fr.epita.exams.config")
+@ComponentScan(basePackages = "fr.epita.exams.config")
 public class AppConfig {
 
     @Bean

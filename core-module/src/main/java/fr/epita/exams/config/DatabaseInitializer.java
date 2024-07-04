@@ -2,6 +2,7 @@ package fr.epita.exams.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Component;
 
 import javax.sql.DataSource;
@@ -9,7 +10,7 @@ import java.sql.Connection;
 import java.sql.Statement;
 
 @Component
-//@ComponentScan(basePackages = "fr.epita.exams.config")
+@ComponentScan(basePackages = "fr.epita.exams.config")
 public class DatabaseInitializer implements CommandLineRunner {
 
     @Autowired

@@ -43,3 +43,13 @@ Mcore-module/src/main/java/fr/epita/exams/repository/CompetitorRepository.java,
 Qcore-module/src/main/java/fr/epita/exams/repository/CompetitorRepositoryImpl.java,1/3/131c68b09e6e0a1459c0d8d205eb3e89cc611fd8
 W
 'core-module/src/test/java/TestJPA2.java,3/e/3e1ddbe7faf34e4b2979793a40114dc23f626286
+C
+rest-module/pom.xml,0/d/0d8cc9c80d092da956b7716a147c747655e157a7
+_
+/rest-module/src/main/java/org/example/Main.java,1/0/1008eb01f2121afe2f96e7b3ff259cc80e0c9d61
+W
+'rest-module/src/test/java/TestRST1.java,9/e/9e55f941128148664543cb35c9da866873157830
+f
+6rest-module/src/main/java/fr/epita/exams/StartApp.java,4/6/467b49b1f4076bb81280a7246f1aead0b9bfe6cd
+x
+Hrest-module/src/main/java/fr/epita/exams/controller/HelloController.java,0/8/08c256d380ee1d13e7b6f2ac9f098605cdda1d94
