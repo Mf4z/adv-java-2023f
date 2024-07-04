@@ -13,3 +13,7 @@ r
 Bcore-module/src/main/java/fr/epita/exams/datamodel/Competitor.java,0/3/03e5e89cb914498c0e6c27dfa124d4276170e65a
 W
 'core-module/src/test/java/TestMVD2.java,d/a/da218aa314aeb073dbb68e0f6a63304d4bedb86a
+r
+Bcore-module/src/main/java/fr/epita/exams/services/JsonService.java,0/0/002649360cc7d5d975306671ef0a312a5b94da69
+W
+'core-module/src/test/java/TestMVD3.java,a/0/a0ddffb5dd352d77764cf01ee17ce7f4917b50ac
