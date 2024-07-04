@@ -17,3 +17,5 @@ r
 Bcore-module/src/main/java/fr/epita/exams/services/JsonService.java,0/0/002649360cc7d5d975306671ef0a312a5b94da69
 W
 'core-module/src/test/java/TestMVD3.java,a/0/a0ddffb5dd352d77764cf01ee17ce7f4917b50ac
+W
+'core-module/src/test/java/TestJUN1.java,5/b/5b349d004eba42168ced8b7d6bdcf758dc4ff582
